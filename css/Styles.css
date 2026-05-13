@@ -1,0 +1,137 @@
+/*****************tag selector**************/
+body {
+  margin: 0px;
+  text-align: center;
+  font-size: 1.25em;
+}
+h1 {
+  font-family: "Hachi Maru Pop", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3.125rem;
+  margin: 0;
+
+  color: #daa464;
+}
+h2 {
+  color: #daa464;
+}
+h3 {
+  color: #daa464;
+}
+a {
+  color: #daa464;
+}
+
+p {
+  font-family: "Story Script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+div {
+  background-color: bisque;
+
+  margin-top: 0%;
+}
+
+p {
+  margin-top: 10px;
+}
+
+/***************class selector*****************/
+.top-container {
+  position: relative;
+  padding-top: 100px;
+}
+.developer {
+  text-decoration: underline;
+}
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 25px;
+  height: auto;
+  width: 200px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+  height: auto;
+  width: 200px;
+}
+.profile {
+  height: auto;
+  width: 25%;
+  padding: 25px;
+  color: #ffffff;
+}
+.job {
+  font-size: 1.5625rem;
+  font-weight: normal;
+  color: #daa464;
+}
+.motorcycle {
+  height: auto;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.gym {
+  height: auto;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.www {
+  height: auto;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.skill-row {
+  width: 50%;
+  height: auto;
+  margin: 100px auto 100px auto;
+  align-items: center;
+
+  text-align: left;
+}
+hr {
+  border-style: dotted none none;
+  border-color: #8a5f41;
+  border-width: 10px;
+  background-color: bisque;
+
+  width: 10%;
+  height: 0px;
+  margin: 50px auto;
+}
+
+.BTN {
+  font-size: 15px;
+  font-family: Arial;
+  width: 140px;
+  height: 50px;
+  border-width: 1px;
+  color: #ffffff;
+  border-color: #54381e;
+  border-top-left-radius: 38px;
+  border-top-right-radius: 38px;
+  border-bottom-left-radius: 38px;
+  border-bottom-right-radius: 38px;
+  box-shadow: inset 0px 1px 47px -24px #a6827e;
+
+  background: linear-gradient(#7d5d3b, #634b30);
+  display: inline-block;
+  text-decoration: none;
+  line-height: 50px;
+  margin-bottom: 10px;
+}
+
+.BTN:hover {
+  background: linear-gradient(#634b30, #7d5d3b);
+}
+.bottom-container {
+  background-color: #a77f60;
+}
